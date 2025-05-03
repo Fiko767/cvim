@@ -1,6 +1,3 @@
-local map = vim.api.nvim_set_keymap
-local opts = { noremap = true, silent = true }
-
 map("n", "<leader>q", "<cmd>q!<CR>", opts)
 map("n", "<leader>w", "<cmd>w!<CR>", opts)
 map("n", "<leader>x", "<cmd>wqa!<CR>", opts)
