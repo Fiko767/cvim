@@ -16,5 +16,6 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
+	require("base.plugins.lsp"),
 	require("base.plugins.themes"),
 })
