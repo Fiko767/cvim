@@ -41,7 +41,7 @@ return {
 				},
 			},
 			defaults = {
-				file_ignore_patterns = { ".git/", ".cache/" },
+				file_ignore_patterns = { "%.git/", ".cache/" },
 			},
 			pickers = {
 				find_files = {
