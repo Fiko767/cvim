@@ -1,5 +1,6 @@
 return {
 	"echasnovski/mini.nvim",
+	event = "VeryLazy",
 	dependencies = { "nvim-lua/plenary.nvim" },
 	keys = {
 		{
