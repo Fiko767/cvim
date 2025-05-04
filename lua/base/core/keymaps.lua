@@ -1,6 +1,6 @@
-map("n", "<leader>q", "<cmd>q!<CR>", opts)
-map("n", "<leader>w", "<cmd>w!<CR>", opts)
-map("n", "<leader>x", "<cmd>wqa!<CR>", opts)
+map("n", "<leader>q", ":q!<CR>", opts)
+map("n", "<leader>w", ":w!<CR>", opts)
+map("n", "<leader>x", ":wqa!<CR>", opts)
 
 -- Navigation in insert mode
 map("i", "<C-h>", "<Left>", opts)
@@ -15,4 +15,4 @@ map("n", "<C-l>", "<C-w>l", opts)
 
 map("i", "jk", "<Esc>", opts)
 
-map("n", "<leader>h", "<cmd>nohlsearch<CR>", opts)
+map("n", "<leader>h", ":nohlsearch<CR>", opts)
