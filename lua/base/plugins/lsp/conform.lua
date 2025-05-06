@@ -17,6 +17,11 @@ return {
 				json = { "prettierd", "prettier", stop_after_first = true },
 				jsonc = { "prettierd", "prettier", stop_after_first = true },
 			},
+			formatters = {
+				prettier = {
+					args = { "--tab-width", "4", "--use-tabs", "%" },
+				},
+			},
 			format_on_save = {
 				lsp_format = "fallback",
 			},
